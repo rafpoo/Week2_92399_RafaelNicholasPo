@@ -35,6 +35,14 @@ export default function Index() {
         <Text>Emily Davis</Text>
         <Text>emilydavis@example.com</Text>
       </View>
+      <View style={styles.content}>
+        <Image
+          style={styles.image}
+          source={require("../assets/images/profiles/5.jpg")}
+        />
+        <Text>David Wilson</Text>
+        <Text>davidwilson@example.com</Text>
+      </View>
     </ScrollView>
   );
 }
